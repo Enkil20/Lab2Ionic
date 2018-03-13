@@ -6,9 +6,10 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+	form: any;
 
   constructor(public navCtrl: NavController) {
-
+  	this.form={};
   }
 
 }
